@@ -11,7 +11,7 @@ interface IProps {
     comment: string;
     setComment: Dispatch<SetStateAction<string>>;
     addComment: (e: React.FormEvent) => void;
-    comments: IComment[];
+    comments: IComment[]; 
 }
 
 interface IComment{
